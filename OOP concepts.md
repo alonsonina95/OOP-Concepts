@@ -53,8 +53,10 @@
 - They cannot be instantiated
 
 ## Generics?
-- Allo
+- Allows you to force types safely by letting you tailor a method or class to precise data type.
+- For example:
+>> L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDUxMDE3NjMsMTc5OTk3NzM2MCwxOT
-Q4ODMwMDEyXX0=
+eyJoaXN0b3J5IjpbOTY0MTI5NjA2LDE3OTk5NzczNjAsMTk0OD
+gzMDAxMl19
 -->
