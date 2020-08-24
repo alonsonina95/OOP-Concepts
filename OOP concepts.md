@@ -29,28 +29,12 @@
 ## What are classes?
 - Template or blueprint from which objects are made
 
-## Object Relations
-- Has reference to a (Association)
--- Indicates that a class holds a reference to another instance of a class has ownership of a reference to another instance of a class 
-- Has Ownership of a (Aggregation): (Has or has many )
--- Denotes that an object has ownership of another object.
--- Each object references is said to be a child of another reference (parent) (1-1) or one to many (1-M)
-> Person has a pet : class person { private Animal pet;}
-> Person has many pets: class person { private List(Animlal)pets;}
-- Uses a dependence
--- Greader uses a Student to obtain a Character representative of grade
-> public class Grader { public Character grade(Student student){}}
-- Is a (inheritance)
--- This relationship denotes dynamic-polymophism
--- Denotes that a class is a specific type of a more general super class
--- Denotes a class has inherent-members (methods/variables) from super class
--- Inherent-member are not explicitly declared in the inheriting class (sub class)
--- All classes are implicit sub-classes of the Object class
-- Has Ownership of a (Composition):
--- We create a field by deriving values from other variables.
--- We compose a field in a class by using external sources being passed to the class
--- Our class implement a functionality that only our class can do with certain values originated in other classes.
-> Person has a birdhDate using composition: constructor(x,y,z) {this.birthdate = new Date(x,y,z);}
+## What is the difference between reference vs value types?
+- Reference types are objects that store references to the actual data -> Class, interfaces, string
+- Value Types hold value => Structs, Enums, Boolean, Numeric types
+
+## What is an interface? (implements)
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODgzMDAxMl19
+eyJoaXN0b3J5IjpbLTIxNDA1NjA3MjUsMTk0ODgzMDAxMl19
 -->
