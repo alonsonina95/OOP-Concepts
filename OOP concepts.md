@@ -81,8 +81,15 @@ Can you use multiple inheritance ??? NO, you can do interfaces tho
 
 FOUR PILLARS OF OOP ===> ABASTRACTION, ENCAPSULATION, INHERITCANCE, POLYMORPHISM
 
+- Compile-time: the code you enter is converted to executable. A better way to explain it would be compile timer errors. 
+These compile timer errors occurred due to typing mistake for instance. These errors won't let your program run a 
+single line of code until these errors are fixed
+
+- Runtime: Instance where the executable is running. Run time errors are the errors that are generated when the program
+is in running state. Oftenly referred as Exceptions.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTg0MDExMiw5NjQxMjk2MDYsMTc5OT
-k3NzM2MCwxOTQ4ODMwMDEyXX0=
+eyJoaXN0b3J5IjpbMTE0MjMzMjY2OCwtMzMxODQwMTEyLDk2ND
+EyOTYwNiwxNzk5OTc3MzYwLDE5NDg4MzAwMTJdfQ==
 -->
