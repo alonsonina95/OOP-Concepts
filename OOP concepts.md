@@ -53,6 +53,8 @@
 - They cannot be instantiated
 
 ## Generics?
+- Allo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTk3NzM2MCwxOTQ4ODMwMDEyXX0=
+eyJoaXN0b3J5IjpbLTIxNDUxMDE3NjMsMTc5OTk3NzM2MCwxOT
+Q4ODMwMDEyXX0=
 -->
