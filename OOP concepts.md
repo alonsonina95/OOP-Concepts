@@ -33,10 +33,17 @@
 - Reference types are objects that store references to the actual data -> Class, interfaces, string
 - Value Types hold value => Structs, Enums, Boolean, Numeric types
 
-## Linke
+## Linked Lists means insertion-order. Hash means in order by memory location, tree means in order by some comparable value
 
 ## What is an interface? (implements)
--
+- They are used to specify methods and properties that a derived class will have access to
+- It does not containt daya
+- Every property or methods inside the interface must be in the derived class
+- You can implement with many interfaces
+
+## What are Abstract classes?
+- They are similar to interfaces, but they cannot be instantiated and they can be either partially implemented or not implemented at all
+- Abstract c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE1MDkyMjAsMTk0ODgzMDAxMl19
+eyJoaXN0b3J5IjpbODUzMzM3MTU3LDE5NDg4MzAwMTJdfQ==
 -->
