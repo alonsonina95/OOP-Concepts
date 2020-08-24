@@ -48,6 +48,11 @@
 - You can specify methods as virtual to force a derived class to create its own implementation
 
 >If you have logic that will be the same for all classes -> use abstract classes instead of interfaces
+
+## What is a static class?
+- They cannot be instantiated
+
+## Generics?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjczNzg4OTIsMTk0ODgzMDAxMl19
+eyJoaXN0b3J5IjpbMTc5OTk3NzM2MCwxOTQ4ODMwMDEyXX0=
 -->
