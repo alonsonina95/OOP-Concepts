@@ -72,7 +72,17 @@ List<ExampleClass> list 3 = new List<ExampleClass>();
 		functionality would be different. Now salary would be weeklyHours * wage (OVERRIDE) 
 
 Polymorphism = Classes having different functionality while sharing the same interface
+
+
+## What is INHERITANCE ??
+
+It is when an object or class is based on a parent object or class, taking on its characteristics
+Can you use multiple inheritance ??? NO, you can do interfaces tho
+
+FOUR PILLARS OF OOP ===> ABASTRACTION, ENCAPSULATION, INHERITCANCE, POLYMORPHISM
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQ3NTA3MzksOTY0MTI5NjA2LDE3OT
-k5NzczNjAsMTk0ODgzMDAxMl19
+eyJoaXN0b3J5IjpbLTMzMTg0MDExMiw5NjQxMjk2MDYsMTc5OT
+k3NzM2MCwxOTQ4ODMwMDEyXX0=
 -->
