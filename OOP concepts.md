@@ -33,8 +33,10 @@
 - Reference types are objects that store references to the actual data -> Class, interfaces, string
 - Value Types hold value => Structs, Enums, Boolean, Numeric types
 
+## Linke
+
 ## What is an interface? (implements)
 -
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDA1NjA3MjUsMTk0ODgzMDAxMl19
+eyJoaXN0b3J5IjpbLTE0NzE1MDkyMjAsMTk0ODgzMDAxMl19
 -->
