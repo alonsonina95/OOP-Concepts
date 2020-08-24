@@ -88,8 +88,19 @@ single line of code until these errors are fixed
 - Runtime: Instance where the executable is running. Run time errors are the errors that are generated when the program
 is in running state. Oftenly referred as Exceptions.
 
+## Hasseeb explanation
+
+- Does java support multiple inheritance - no
+
+- Abstraction - process of hiding the implementation details from user, only the functionality will be provided 
+to the user
+
+- Encapsulation - the process that binds to gather the data and functions that manipulated the data that keeps both safe
+from outside interference and missues - public, private and protected come in place
+
+- Inheritance - ability by which one calss acquires the properties and behaviorus of another class
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjMzMjY2OCwtMzMxODQwMTEyLDk2ND
+eyJoaXN0b3J5IjpbMTc0OTg0NTIyMSwtMzMxODQwMTEyLDk2ND
 EyOTYwNiwxNzk5OTc3MzYwLDE5NDg4MzAwMTJdfQ==
 -->
