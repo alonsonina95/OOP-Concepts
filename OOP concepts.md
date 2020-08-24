@@ -55,8 +55,24 @@
 ## Generics?
 - Allows you to force types safely by letting you tailor a method or class to precise data type.
 - For example:
->> L
+````
+List<ExampleClass> list 3 = new List<ExampleClass>();
+	List<string> list2 = new List<string>();
+	
+	List 2 will be expecting only string, it will not let you enter another type
+````
+
+## What is Polymorphism ? (Many forms)
+- Another example could be an Employee class and a contrat class that inherits from the employee class
+		
+		Employee class has a mehthod called calculateWeeklySalaryu(int weeklyHours, int wage), you can also
+		calculate the salary in this function if you multiply 40 * wage.
+		
+		Contract class inherits from Employee class. It will have the same function signature, but the
+		functionality would be different. Now salary would be weeklyHours * wage (OVERRIDE) 
+
+Polymorphism = Classes having different functionality while sharing the same interface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MTI5NjA2LDE3OTk5NzczNjAsMTk0OD
-gzMDAxMl19
+eyJoaXN0b3J5IjpbLTE5NTQ3NTA3MzksOTY0MTI5NjA2LDE3OT
+k5NzczNjAsMTk0ODgzMDAxMl19
 -->
