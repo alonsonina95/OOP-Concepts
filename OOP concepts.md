@@ -87,10 +87,16 @@ e1.setPerson(e); // this is valid
 c1.setPerson(c); // this is valid
 
 
-GENERIC METHOD:
+2. GENERIC METHOD:
 - They introduce their own type parameters
 - The same method can be used for different reference types
 - static and non-static methods can be generic
+
+public static <E> void print (E[] list) {
+	for( E element : list) {
+	System.out.println(element);		
+	}
+}
 ````
 
 ## What is Polymorphism ? (Having Many forms)
@@ -131,7 +137,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk5NzQxNDIsLTI0NjIyNTM0MiwtMT
-c5NTExMDQxLDE3NDk4NDUyMjEsLTMzMTg0MDExMiw5NjQxMjk2
-MDYsMTc5OTk3NzM2MCwxOTQ4ODMwMDEyXX0=
+eyJoaXN0b3J5IjpbMTI3MTg0NzM4NCwtMjQ2MjI1MzQyLC0xNz
+k1MTEwNDEsMTc0OTg0NTIyMSwtMzMxODQwMTEyLDk2NDEyOTYw
+NiwxNzk5OTc3MzYwLDE5NDg4MzAwMTJdfQ==
 -->
