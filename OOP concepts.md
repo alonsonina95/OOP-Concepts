@@ -54,7 +54,8 @@
 
 ## Generics?
 
-- Using generics, the type of an object can be determined at compile time
+- Generics eliminate unnecessary casts
+- With generics, type checking happens at compiler time
 - Allows you to force types safely and finding errors at compile time instead of runtime.
 - For example:
 ````
@@ -117,7 +118,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjU4MjYzNywxNzQ5ODQ1MjIxLC0zMz
+eyJoaXN0b3J5IjpbLTE3OTUxMTA0MSwxNzQ5ODQ1MjIxLC0zMz
 E4NDAxMTIsOTY0MTI5NjA2LDE3OTk5NzczNjAsMTk0ODgzMDAx
 Ml19
 -->
