@@ -134,14 +134,16 @@ public static <E extends Comparable<E>> ArrayList<E> removeDuplicates(ArrayList<
 	newList.add(listWithDuplicates.get(0));
 	for(int i = 1; i < listWithDuplicates.size() ; i++) {
 		for(int j =0 ; j < newList.size(); j++) {
-			if(listWithDuplicates.get(i)compareTo(newList.get(j)) == 0) {
+			if(listWithDuplicates.get(i).compareTo(newList.get(j)) == 0) {
 				found = true;
 				break;
 			}
 			if (found != true) {
 				newList.add(list.get(i));
 			}
+			found = false;
 		}
+	return newList;
 	}
 }
 
@@ -185,8 +187,8 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU1NzY4NDIsMTYzNzc1MTkwLC0xMz
-czODc0NDUzLC0yNDYyMjUzNDIsLTE3OTUxMTA0MSwxNzQ5ODQ1
-MjIxLC0zMzE4NDAxMTIsOTY0MTI5NjA2LDE3OTk5NzczNjAsMT
-k0ODgzMDAxMl19
+eyJoaXN0b3J5IjpbLTE2MjEwNjQ0MCwxNjM3NzUxOTAsLTEzNz
+M4NzQ0NTMsLTI0NjIyNTM0MiwtMTc5NTExMDQxLDE3NDk4NDUy
+MjEsLTMzMTg0MDExMiw5NjQxMjk2MDYsMTc5OTk3NzM2MCwxOT
+Q4ODMwMDEyXX0=
 -->
