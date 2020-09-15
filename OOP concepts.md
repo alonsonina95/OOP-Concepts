@@ -53,6 +53,8 @@
 - They cannot be instantiated
 
 ## Generics?
+
+- Using generics, the type of an object can be determined at compile time
 - Allows you to force types safely and finding errors at compile time instead of runtime.
 - For example:
 ````
@@ -115,7 +117,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMzgxNzgzLDE3NDk4NDUyMjEsLTMzMT
-g0MDExMiw5NjQxMjk2MDYsMTc5OTk3NzM2MCwxOTQ4ODMwMDEy
-XX0=
+eyJoaXN0b3J5IjpbLTYxMjU4MjYzNywxNzQ5ODQ1MjIxLC0zMz
+E4NDAxMTIsOTY0MTI5NjA2LDE3OTk5NzczNjAsMTk0ODgzMDAx
+Ml19
 -->
