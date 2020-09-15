@@ -78,6 +78,12 @@ public static <K,V> void print(K key, V value) {
 	System.out.println("Value" + value);
 }
 
+In this example, E is the type parameter
+Employee is a type parameter
+
+public class class Person<E>{//code}
+Person<Employee> p1 = new Person<>();
+
 ````
 
 ## What is Polymorphism ? (Having Many forms)
@@ -118,7 +124,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTUxMTA0MSwxNzQ5ODQ1MjIxLC0zMz
-E4NDAxMTIsOTY0MTI5NjA2LDE3OTk5NzczNjAsMTk0ODgzMDAx
-Ml19
+eyJoaXN0b3J5IjpbMTI2NDM1NjYxMywtMTc5NTExMDQxLDE3ND
+k4NDUyMjEsLTMzMTg0MDExMiw5NjQxMjk2MDYsMTc5OTk3NzM2
+MCwxOTQ4ODMwMDEyXX0=
 -->
