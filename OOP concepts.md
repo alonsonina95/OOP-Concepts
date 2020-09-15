@@ -81,13 +81,22 @@ public static <K,V> void print(K key, V value) {
 In this example, E is the type parameter
 Employee is a type parameter
 
-This is a GENERIC person class
+This is a GENERIC person class:
+
+
 public class class Person<E>{
 	public E e;
-	
-	p
+	public void setPerson(E e) {
+	this.e = e;
+	}
+	public E getPerson(){
+	return this.e;
+	}
 }
-Person<Employee> p1 = new Person<>();
+
+Person<Employee> e1 = new Person<>();
+Person<Contact> c1 = new Person<>(); 
+Emplo
 
 ````
 
@@ -129,7 +138,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NjAxODg1LC0xNzk1MTEwNDEsMTc0OT
-g0NTIyMSwtMzMxODQwMTEyLDk2NDEyOTYwNiwxNzk5OTc3MzYw
-LDE5NDg4MzAwMTJdfQ==
+eyJoaXN0b3J5IjpbMTI1Mzg3NjMzOSwtMTc5NTExMDQxLDE3ND
+k4NDUyMjEsLTMzMTg0MDExMiw5NjQxMjk2MDYsMTc5OTk3NzM2
+MCwxOTQ4ODMwMDEyXX0=
 -->
