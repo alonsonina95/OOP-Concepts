@@ -96,6 +96,10 @@ public static <E> void print (E[] list) {
 	for( E element : list) {
 	System.out.println(element);		
 	}
+
+This allows me 
+public static <T extends Comparable<T>> int countGreaterThan( T[] list, E elem) {
+	// code
 }
 ````
 
@@ -137,7 +141,8 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM4NzQ0NTMsLTI0NjIyNTM0MiwtMT
-c5NTExMDQxLDE3NDk4NDUyMjEsLTMzMTg0MDExMiw5NjQxMjk2
-MDYsMTc5OTk3NzM2MCwxOTQ4ODMwMDEyXX0=
+eyJoaXN0b3J5IjpbLTU4NDc5Nzc2MSwtMTM3Mzg3NDQ1MywtMj
+Q2MjI1MzQyLC0xNzk1MTEwNDEsMTc0OTg0NTIyMSwtMzMxODQw
+MTEyLDk2NDEyOTYwNiwxNzk5OTc3MzYwLDE5NDg4MzAwMTJdfQ
+==
 -->
