@@ -96,7 +96,10 @@ public class class Person<E>{
 
 Person<Employee> e1 = new Person<>();
 Person<Contact> c1 = new Person<>(); 
-Emplo
+Employee e = new Employee("Jhon", "Slattery", "12345"); // creating an employee
+Contact c = new Contact("Mrs", "Peggy","Fisher","2020"); // creating a contract
+e1.setPerson(e);
+c1.setPerson(c);
 
 ````
 
@@ -138,7 +141,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mzg3NjMzOSwtMTc5NTExMDQxLDE3ND
+eyJoaXN0b3J5IjpbLTY1MTczNjU0NywtMTc5NTExMDQxLDE3ND
 k4NDUyMjEsLTMzMTg0MDExMiw5NjQxMjk2MDYsMTc5OTk3NzM2
 MCwxOTQ4ODMwMDEyXX0=
 -->
