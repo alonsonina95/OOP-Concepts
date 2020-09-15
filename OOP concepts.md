@@ -97,7 +97,7 @@ public static <E> void print (E[] list) {
 	System.out.println(element);		
 	}
 
-This allows me 
+This allows me to use the comparable interface with my values, so I don't have to worry about wheater the values are coming in are strings or numbers or characeters.
 public static <T extends Comparable<T>> int countGreaterThan( T[] list, E elem) {
 	// code
 }
@@ -141,7 +141,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDc5Nzc2MSwtMTM3Mzg3NDQ1MywtMj
+eyJoaXN0b3J5IjpbLTMyNzM1NTE0OSwtMTM3Mzg3NDQ1MywtMj
 Q2MjI1MzQyLC0xNzk1MTEwNDEsMTc0OTg0NTIyMSwtMzMxODQw
 MTEyLDk2NDEyOTYwNiwxNzk5OTc3MzYwLDE5NDg4MzAwMTJdfQ
 ==
