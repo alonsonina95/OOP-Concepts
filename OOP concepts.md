@@ -119,6 +119,18 @@ list.add("something"); // this is valid
 }
 ````
 
+## Program:
+- Create a generic method:
+- Pass a generic ArrayList to the method which eliminates duplicates
+- Return the new ArrayList without duplicates
+````
+
+public static <E> void addToList(E[] list) {
+	
+}
+
+
+````
 ## What is Polymorphism ? (Having Many forms)
 - Another example could be an Employee class and a contrat class that inherits from the employee class
 		
@@ -157,7 +169,8 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzc1MTkwLC0xMzczODc0NDUzLC0yND
-YyMjUzNDIsLTE3OTUxMTA0MSwxNzQ5ODQ1MjIxLC0zMzE4NDAx
-MTIsOTY0MTI5NjA2LDE3OTk5NzczNjAsMTk0ODgzMDAxMl19
+eyJoaXN0b3J5IjpbLTIxMjUwNzgzODEsMTYzNzc1MTkwLC0xMz
+czODc0NDUzLC0yNDYyMjUzNDIsLTE3OTUxMTA0MSwxNzQ5ODQ1
+MjIxLC0zMzE4NDAxMTIsOTY0MTI5NjA2LDE3OTk5NzczNjAsMT
+k0ODgzMDAxMl19
 -->
