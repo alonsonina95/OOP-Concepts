@@ -81,7 +81,12 @@ public static <K,V> void print(K key, V value) {
 In this example, E is the type parameter
 Employee is a type parameter
 
-public class class Person<E>{//code}
+This is a GENERIC person class
+public class class Person<E>{
+	public E e;
+	
+	p
+}
 Person<Employee> p1 = new Person<>();
 
 ````
@@ -124,7 +129,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDM1NjYxMywtMTc5NTExMDQxLDE3ND
-k4NDUyMjEsLTMzMTg0MDExMiw5NjQxMjk2MDYsMTc5OTk3NzM2
-MCwxOTQ4ODMwMDEyXX0=
+eyJoaXN0b3J5IjpbNDk4NjAxODg1LC0xNzk1MTEwNDEsMTc0OT
+g0NTIyMSwtMzMxODQwMTEyLDk2NDEyOTYwNiwxNzk5OTc3MzYw
+LDE5NDg4MzAwMTJdfQ==
 -->
