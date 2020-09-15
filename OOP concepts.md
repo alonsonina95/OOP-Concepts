@@ -119,7 +119,7 @@ list.add("something"); // this is valid
 }
 ````
 
-## Program:
+## Program: Create a generic function that removes duplicates
 - Create a generic method:
 - Pass a generic ArrayList to the method which eliminates duplicates
 - Return the new ArrayList without duplicates
@@ -187,8 +187,8 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjEwNjQ0MCwxNjM3NzUxOTAsLTEzNz
-M4NzQ0NTMsLTI0NjIyNTM0MiwtMTc5NTExMDQxLDE3NDk4NDUy
-MjEsLTMzMTg0MDExMiw5NjQxMjk2MDYsMTc5OTk3NzM2MCwxOT
-Q4ODMwMDEyXX0=
+eyJoaXN0b3J5IjpbODUxOTExNTAyLC0xNjIxMDY0NDAsMTYzNz
+c1MTkwLC0xMzczODc0NDUzLC0yNDYyMjUzNDIsLTE3OTUxMTA0
+MSwxNzQ5ODQ1MjIxLC0zMzE4NDAxMTIsOTY0MTI5NjA2LDE3OT
+k5NzczNjAsMTk0ODgzMDAxMl19
 -->
