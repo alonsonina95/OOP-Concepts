@@ -65,24 +65,7 @@ K = Key
 N = Number
 T = Type
 
-Syntax includes a type parameters in angle brackets before the method return type
-public static <E> void print(E[] list) {}
-public interface MyInterface<E>
-public interface MyInterface<K,V>
-
-Arraylist<Integer> a = new ArrayList<Integer>();
-
-Generic Method:
-public static <K,V> void print(K key, V value) {
-	System.out.println("Key" + key);
-	System.out.println("Value" + value);
-}
-
-In this example, E is the type parameter
-Employee is a type parameter
-
-This is a GENERIC person class:
-
+GENERIC CLASS:
 
 public class class Person<E>{
 	public E e;
@@ -103,6 +86,11 @@ Contact c = new Contact("Mrs", "Peggy","Fisher","2020"); // creating a contract
 e1.setPerson(e); // this is valid
 c1.setPerson(c); // this is valid
 
+
+GENERIC METHOD:
+- They introduce their own type parameters
+- The same method can be used for different reference types
+- static and non-static methods can be generic
 ````
 
 ## What is Polymorphism ? (Having Many forms)
@@ -143,7 +131,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjIyNTM0MiwtMTc5NTExMDQxLDE3ND
-k4NDUyMjEsLTMzMTg0MDExMiw5NjQxMjk2MDYsMTc5OTk3NzM2
-MCwxOTQ4ODMwMDEyXX0=
+eyJoaXN0b3J5IjpbLTE0MDk5NzQxNDIsLTI0NjIyNTM0MiwtMT
+c5NTExMDQxLDE3NDk4NDUyMjEsLTMzMTg0MDExMiw5NjQxMjk2
+MDYsMTc5OTk3NzM2MCwxOTQ4ODMwMDEyXX0=
 -->
