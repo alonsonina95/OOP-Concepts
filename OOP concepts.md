@@ -2,7 +2,6 @@
 
 # Notes of OOP concepts vs Procedural Programming
 ## Structured programming
-- First: identify which algorithm to manipulate data
 - Why? Small problems are easily resolved with a procedural implementation (straight down, line by line)
 - Why not? Because it scales very poorly
 - As the program grows in size, its complexity increases
@@ -11,9 +10,7 @@
 ## Why do we use OOP?
 - Large problems can be more easily scaled using OOP paradigm
 - OOP allows users to break problems down into small logical objects
-- OOP allows users to view code-details within the context of a specific object
-- OOP allows user to more easily debug code
-- OOP allows greater testability of code
+- Re-usability
 
 ## An object-oriented program is made of objects
 - Each object has specific functionalities, which users access via the object's methods
@@ -21,10 +18,13 @@
 	- First; identify which structures (objects) to manipulate data
 	- Second; identify what algorithms each structure will use
 
-## 3 Aspects of an object
-- Identity: What is the location?
-- State = What does it store?
-- Behavior = How does it act?
+## What is Abstraction?
+
+- The idea or concept of something (a person)
+- Focus on the essential qualities of my person
+- My person **should** have
+
+
 
 ## What are classes?
 - Template or blueprint from which objects are made
@@ -53,16 +53,31 @@
 - They cannot be instantiated
 
 ## Generics?
-- Allows you to force types safely by letting you tailor a method or class to precise data type.
+- Allows you to force types safely and finding errors at compile time instead of runtime.
 - For example:
 ````
-List<ExampleClass> list 3 = new List<ExampleClass>();
-	List<string> list2 = new List<string>();
-	
-	List 2 will be expecting only string, it will not let you enter another type
+Type parameters Names
+E = Element (used extrensively by Java Collections)
+K = Key
+N = Number
+T = Type
+
+Syntax includes a type parameters in angle brackets before the method return type
+public static <E> void print(E[] list) {}
+public interface MyInterface<E>
+public interface MyInterface<K,V>
+
+Arraylist<Integer> a = new ArrayList<Integer>();
+
+Generic Method:
+public static <K,V> void print(K key, V value) {
+	System.out.println("Key" + key);
+	System.out.println("Value" + value);
+}
+
 ````
 
-## What is Polymorphism ? (Many forms)
+## What is Polymorphism ? (Having Many forms)
 - Another example could be an Employee class and a contrat class that inherits from the employee class
 		
 		Employee class has a mehthod called calculateWeeklySalaryu(int weeklyHours, int wage), you can also
@@ -95,12 +110,12 @@ is in running state. Oftenly referred as Exceptions.
 - Abstraction - process of hiding the implementation details from user, only the functionality will be provided 
 to the user
 
-- Encapsulation - the process that binds to gather the data and functions that manipulated the data that keeps both safe
-from outside interference and missues - public, private and protected come in place
+- Encapsulation - Keep data from a class protected from other objects. You can only access these data using the methods declared in my class. Restrict data. Reducing dependencies between different parts of the application.
 
-- Inheritance - ability by which one calss acquires the properties and behaviorus of another class
+- Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTg0NTIyMSwtMzMxODQwMTEyLDk2ND
-EyOTYwNiwxNzk5OTc3MzYwLDE5NDg4MzAwMTJdfQ==
+eyJoaXN0b3J5IjpbMjYxMzgxNzgzLDE3NDk4NDUyMjEsLTMzMT
+g0MDExMiw5NjQxMjk2MDYsMTc5OTk3NzM2MCwxOTQ4ODMwMDEy
+XX0=
 -->
