@@ -115,7 +115,7 @@ public class GenericList<T> implements GenericInteface<T> {
 	}
 
 GnericList<String> list = new GenericList<>();
-list.add("something"); // this is val
+list.add("something"); // this is valid
 }
 ````
 
@@ -157,7 +157,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4OTI5Mjc1LC0xMzczODc0NDUzLC0yND
+eyJoaXN0b3J5IjpbMTYzNzc1MTkwLC0xMzczODc0NDUzLC0yND
 YyMjUzNDIsLTE3OTUxMTA0MSwxNzQ5ODQ1MjIxLC0zMzE4NDAx
 MTIsOTY0MTI5NjA2LDE3OTk5NzczNjAsMTk0ODgzMDAxMl19
 -->
