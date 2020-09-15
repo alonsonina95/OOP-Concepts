@@ -65,7 +65,7 @@ K = Key
 N = Number
 T = Type
 
-GENERIC CLASS:
+1. GENERIC CLASS:
 
 public class class Person<E>{
 	public E e;
@@ -137,7 +137,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTg0NzM4NCwtMjQ2MjI1MzQyLC0xNz
-k1MTEwNDEsMTc0OTg0NTIyMSwtMzMxODQwMTEyLDk2NDEyOTYw
-NiwxNzk5OTc3MzYwLDE5NDg4MzAwMTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNzM4NzQ0NTMsLTI0NjIyNTM0MiwtMT
+c5NTExMDQxLDE3NDk4NDUyMjEsLTMzMTg0MDExMiw5NjQxMjk2
+MDYsMTc5OTk3NzM2MCwxOTQ4ODMwMDEyXX0=
 -->
