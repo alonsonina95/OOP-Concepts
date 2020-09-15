@@ -103,6 +103,10 @@ public static <T extends Comparable<T>> int countGreaterThan( T[] list, E elem) 
 }
 
 3. GENERIC INTERFACES
+
+public interface GenericInterface<T> {
+	public void add(T t);
+}
 ````
 
 ## What is Polymorphism ? (Having Many forms)
@@ -143,7 +147,7 @@ to the user
 - Inheritance - ability by which one class acquires the properties/attributes and behaviors/methods of another class. It is a great form of code reuse
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDUwMzk1NSwtMTM3Mzg3NDQ1MywtMj
+eyJoaXN0b3J5IjpbMTU2MjMzODUxOSwtMTM3Mzg3NDQ1MywtMj
 Q2MjI1MzQyLC0xNzk1MTEwNDEsMTc0OTg0NTIyMSwtMzMxODQw
 MTEyLDk2NDEyOTYwNiwxNzk5OTc3MzYwLDE5NDg4MzAwMTJdfQ
 ==
